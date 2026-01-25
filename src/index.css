@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background-yellow: #fdf9ee;
+  --color-lines: #eee0bb;
+}
