@@ -4,3 +4,11 @@
   --color-background-yellow: #fdf9ee;
   --color-lines: #eee0bb;
 }
+
+.nav-border > div {
+  width: 100%;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom-color: #eee0bb;
+  border-bottom-width: 1px;
+}
