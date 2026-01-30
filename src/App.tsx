@@ -7,6 +7,7 @@ import Blog from "./components/Pages/Blog/Blog";
 import Footer from "./components/Footer/Footer";
 import Portfolio from "./components/Pages/Portfolio/Portfolio";
 import ContactMe from "./components/Pages/ContactMe/ContactMe";
+import About from "./components/Pages/About/About";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/blog" element={<Blog />} />
-            <Route path="/about" element="Hello" />
+            <Route path="/about" element={<About />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<ContactMe />} />
             <Route path="*" element={<NotFound />} />
