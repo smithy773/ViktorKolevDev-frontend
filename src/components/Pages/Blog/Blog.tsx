@@ -1,10 +1,11 @@
 import PageCont from "../../Helpers/PageCont/PageCont";
+import BlogItem from "./BlogItem/BlogItem";
 
 function Blog() {
   return (
-    <PageCont>
+    <PageCont title="Blog page" description="BLOG DESCRIPTION">
       <div>
-        <h1>BLOG PAGE</h1>
+        <BlogItem />
       </div>
     </PageCont>
   );

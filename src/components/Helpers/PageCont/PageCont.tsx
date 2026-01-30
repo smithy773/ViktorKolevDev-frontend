@@ -1,8 +1,23 @@
+// TITLE:
+// CHANGE TYPES
+// MAKE TITLE INTO IMAGE
+// DESCRIPTION!!!
+
 function PageCont(props: any) {
   return (
     <div className="overflow-hidden w-full h-full">
       <div className="w-full h-full overflow-y-scroll box-content pr-5">
-        {props.children}
+        <h1 className="text-5xl mb-10">{props.title}</h1>
+
+        {props.description == "none" ? (
+          ""
+        ) : (
+          <section>
+            <p>{props.description}</p>
+          </section>
+        )}
+
+        <section>{props.children}</section>
       </div>
     </div>
   );

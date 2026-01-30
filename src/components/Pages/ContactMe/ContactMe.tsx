@@ -1,8 +1,10 @@
+import PageCont from "../../Helpers/PageCont/PageCont";
+
 function ContactMe() {
   return (
-    <div>
-      <h1>Contact page</h1>
-    </div>
+    <PageCont title="Contact me" description="You can contact me here lol">
+      <h1>Contact page info and stuff</h1>
+    </PageCont>
   );
 }
 
