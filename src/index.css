@@ -3,6 +3,7 @@
 @theme {
   --color-background-yellow: #fdf9ee;
   --color-lines: #eee0bb;
+  --color-purple: #5d3fd3;
 }
 
 .nav-border > div {
