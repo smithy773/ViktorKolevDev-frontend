@@ -12,7 +12,9 @@ function NavBar() {
         </div>
         <NavLinkMenu />
         <div className="text-center">
-          <NavLink to="/contact">💬 Contact me</NavLink>
+          <NavLink className="navbar-link" to="/contact">
+            💬 Contact me
+          </NavLink>
         </div>
         <div className="mt-auto text-center">
           <h1>THEME</h1>

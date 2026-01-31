@@ -4,6 +4,7 @@
   --color-background-yellow: #fdf9ee;
   --color-lines: #eee0bb;
   --color-purple: #5d3fd3;
+  --color-stone: #2b2b2a;
 }
 
 .nav-border > div {
@@ -12,4 +13,24 @@
   margin-bottom: 0.5rem;
   border-bottom-color: #eee0bb;
   border-bottom-width: 1px;
+}
+
+.navbar-link {
+  border-color: #fdf9ee;
+  border-bottom-style: var(--tw-border-style);
+  border-bottom-width: 2px;
+  transition-property: all;
+  transition-timing-function: var(
+    --tw-ease,
+    var(--default-transition-timing-function) /* cubic-bezier(0.4, 0, 0.2, 1) */
+  );
+  transition-duration: var(
+    --tw-duration,
+    var(--default-transition-duration) /* 150ms */
+  );
+}
+
+.navbar-link:hover {
+  border-color: #5d3fd3;
+  font-weight: 700;
 }

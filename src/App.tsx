@@ -11,7 +11,7 @@ import About from "./components/Pages/About/About";
 
 function App() {
   return (
-    <div className="flex justify-center bg-background-yellow h-screen">
+    <div className="flex justify-center bg-background-yellow h-screen text-stone">
       <div className="flex flex-row my-2.5">
         {/*                                                               */}
         {/* might want to change it so navbar doesn't appear for NotFound */}
