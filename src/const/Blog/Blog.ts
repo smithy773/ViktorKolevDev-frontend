@@ -13,18 +13,18 @@ export const blogCont: {
   blogItems: [
     {
       postTitle: "First post title!",
-      postDate: "Jan 30th, 2026",
+      postDate: "Jan 30, 2026",
       postID: "1",
     },
     {
       postTitle: "Second post title!",
-      postDate: "Jan 31st, 2026",
+      postDate: "Jan 31, 2026",
       postID: "2",
     },
     {
       postTitle:
         "RESIDENT EVIL 5 IS A GREAT GAME AND I DON'T CARE WHAT YOU SAY!!!!",
-      postDate: "Jan 31st, 2026",
+      postDate: "Jan 31, 2026",
       postID: "3",
     },
   ],

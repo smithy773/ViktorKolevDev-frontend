@@ -6,8 +6,11 @@ function NavBar() {
     <nav className="">
       <div className="w-36 h-full flex flex-col items-center nav-border">
         <div>
-          <NavLink to="/">
-            <h3 className="text-2xl">Viktor Kolev</h3>
+          <NavLink
+            className="hover:text-purple font-medium transition-all text-2xl"
+            to="/"
+          >
+            Viktor Kolev
           </NavLink>
         </div>
         <NavLinkMenu />
