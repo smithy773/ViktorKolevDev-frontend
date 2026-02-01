@@ -57,7 +57,7 @@ export const blogPosts: {
       title: "Second post title!",
       date: "Jan 31, 2026",
       content:
-        "Second post for testing purposes.\n\n I don't really know what I'm doing, but I believe it will turn out great.\n Yay me! (or whatever)",
+        "Second post for testing purposes.\n I don't really know what I'm doing, but I believe it will turn out great.\n Yay me! (or whatever)",
     },
   },
   {
