@@ -38,6 +38,20 @@ I try to read books as often as possible - my goal is to keep it at least one bo
 | Unscripted: Life, Liberty, and the Pursuit of Entrepreneurship | Star Wars: Darth Vader (Charles Soule)      |
 | 1984                                                           | Berserk                                     |
 
+## Movies / Shows
+
+Movies and TV Shows are a great way to spend your time, especially when eating / snacking. My favourite movies and shows always talk about manhood, love and navigating your way between them (literally each movie and shows below includes those topics one way or another).
+
+###### Note: Freaks and Geeks is probably top 3 best seasons of television made, House M.D. is THE best show ever, TMNT 2003 are THE best turtles and if each person wants to learn about manhood and can only watch one single movie to do so, it has to be Dead Poets Society - you can't argue with these statements, I simply will not believe you if you don't think I'm right :p
+
+| Favourite movies   | Favourite shows                     |
+| ------------------ | ----------------------------------- |
+| Dead Poets Society | House M.D.                          |
+| 50/50              | Teenage Mutant Ninja Turtles (2003) |
+| Stand By Me        | The Sopranos                        |
+| Fight Club         | Supernatural                        |
+| Hesher             | Freaks and Geeks                    |
+
 ## Games
 
 I love video games, TCGs and board games. Magic The Gathering is basically an addiction of mine, as I'm sitting at around 10+ decks for around 5 formats of the game...
