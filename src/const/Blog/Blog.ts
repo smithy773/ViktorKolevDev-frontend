@@ -43,7 +43,7 @@ export const blogPosts: {
   post: blogPost;
 }[] = [
   {
-    id: "1",
+    id: "3",
     post: {
       title: "First post title!",
       date: "Jan 30, 2026",
@@ -61,7 +61,7 @@ export const blogPosts: {
     },
   },
   {
-    id: "3",
+    id: "1",
     post: {
       title:
         "RESIDENT EVIL 5 IS A GREAT GAME AND I DON'T CARE WHAT YOU SAY!!!!",
