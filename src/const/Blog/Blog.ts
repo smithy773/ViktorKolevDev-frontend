@@ -66,8 +66,7 @@ export const blogPosts: {
       title:
         "RESIDENT EVIL 5 IS A GREAT GAME AND I DON'T CARE WHAT YOU SAY!!!!",
       date: "Jan 31, 2026",
-      content:
-        "RESIDENT EVIL 5 IS GREAT!\n RE5 is a great addition to the games - i don't care what anybody says! Ofcourse it's not even a top 5 Resident Evil game (Top 5 RE games (objectively) are:\n1. Resident Evil HD Remake\n2. Resident Evil 2 (Original)\n3. Resident Evil 7\n4. Resident Evil 3 \n5. Resident Evil 4 (Original))\n BUT! don't let that fool you - this is one of the best CO-OP experiences you can have. It's goofy, creepy, has a great soundtrack, the graphics hold up even in today's ridiculous world, there are a lot of unlockables which make the game replayable. The Mercenaries - oh.my.GOD! How many hours I've sunk into the Games for Windows Live version of RE5 just because of The Mercenaries... I've practically speedran the game before I even knew what speedrunning is! My best time was under 4h (something like 3h30mins) while my previous runs were around 5h. Sadly, I never got near the world record, which is a whopping 1h41m44s on Veteran... Crazy...",
+      content: "",
     },
   },
 ];
