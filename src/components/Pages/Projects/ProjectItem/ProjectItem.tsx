@@ -13,8 +13,16 @@ function ProjectItem({ title, description, gitHubURL, url }: ProjectItemProps) {
         {description}
       </p>
       <div className="flex justify-center gap-15">
-        <a href={gitHubURL}>GitHub</a>
-        {url ? <a href={url}>Live site</a> : ""}
+        <a target="_blank" href={gitHubURL}>
+          GitHub
+        </a>
+        {url ? (
+          <a target="_blank" href={url}>
+            Live site
+          </a>
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );
