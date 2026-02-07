@@ -13,6 +13,7 @@
     "@tailwindcss/vite": "^4.1.18",
     "eslint-plugin-react-dom": "^2.7.4",
     "eslint-plugin-react-x": "^2.7.4",
+    "github-markdown-css": "^5.9.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-markdown": "^10.1.0",
@@ -20,7 +21,9 @@
     "react-syntax-highlighter": "^16.1.0",
     "rehype-raw": "^7.0.0",
     "remark-gfm": "^4.0.1",
-    "tailwindcss": "^4.1.18"
+    "remark-rehype": "^11.1.2",
+    "tailwindcss": "^4.1.18",
+    "unified": "^11.0.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",

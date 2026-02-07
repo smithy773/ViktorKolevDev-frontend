@@ -1,6 +1,19 @@
+import { useEffect, useState } from "react";
 import PageCont from "../../Helpers/PageCont/PageCont";
+import MarkdownRenderer from "../../Helpers/MarkdownRenderer/MarkdownRenderer";
 
 function About() {
+  const [content, setContent] = useState("");
+  const fetchMarkdown = () => {
+    fetch(`/pages-markdown/About/about.md`)
+      .then((res) => res.text())
+      .then((text) => setContent(text))
+      .catch((err) => console.error("Failed to load markdown:", err));
+  };
+
+  useEffect(() => {
+    fetchMarkdown();
+  }, []);
   return (
     <PageCont title="About me" description="none">
       <div>
@@ -28,6 +41,7 @@ function About() {
         </section>
         <section>
           {/* Insert markdown file via or other similar thing */}
+          <MarkdownRenderer>{content}</MarkdownRenderer>
         </section>
       </div>
     </PageCont>

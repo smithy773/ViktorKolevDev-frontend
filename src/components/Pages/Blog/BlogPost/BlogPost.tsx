@@ -2,9 +2,7 @@ import { useParams } from "react-router";
 // import { blogPosts, type blogPost } from "../../../../const/Blog/Blog";
 import PageCont from "../../../Helpers/PageCont/PageCont";
 import { useEffect, useState } from "react";
-import Markdown from "react-markdown";
-import remarkGfm from "remark-gfm";
-import rehypeRaw from "rehype-raw";
+import MarkdownRenderer from "../../../Helpers/MarkdownRenderer/MarkdownRenderer";
 
 // HERE THE CODE SHOULD FETCH A POST BY TAKING THE postID from the URL AND LOAD THE BLOG POST
 
@@ -26,9 +24,7 @@ function BlogPost() {
   }, []);
   return (
     <PageCont title="none" description="none">
-      <Markdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
-        {content}
-      </Markdown>
+      <MarkdownRenderer>{content}</MarkdownRenderer>
     </PageCont>
   );
 }
