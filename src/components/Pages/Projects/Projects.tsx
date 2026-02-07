@@ -4,20 +4,20 @@ import ProjectItem from "./ProjectItem/ProjectItem";
 function Projects() {
   return (
     <PageCont title="Projects page" description="Projects page description">
-      <div>
+      <section className="grid grid-cols-3 gap-3">
         <ProjectItem
-          title="title"
-          description="description123123123123123123123123123123123123123"
+          title="Hangman"
+          description="The classic Hangman game, but online. Built with TypeScript + React."
           url="www.google.com"
           gitHubURL="www.google.com"
         />
         <ProjectItem
-          title="title"
-          description="description123123123123123123123123123123123123123"
+          title="Second Project Title"
+          description="This is a template description for testing."
           url=""
           gitHubURL="www.google.com"
         />
-      </div>
+      </section>
     </PageCont>
   );
 }
