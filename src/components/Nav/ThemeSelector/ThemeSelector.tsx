@@ -1,13 +1,14 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function ThemeSelector() {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("Light");
   const [showMenu, setShowMenu] = useState(false);
 
-  const themeSelect = (theme: string) => {
-    setTheme(theme);
+  const themeSelect = (selectedTheme: string) => {
+    if (selectedTheme !== theme) {
+      setTheme(selectedTheme);
+    }
     setShowMenu(false);
-    console.log(theme);
   };
 
   return (
@@ -16,13 +17,13 @@ function ThemeSelector() {
         <menu className="mb-4 flex flex-col gap-2 transition-all w-20 mx-auto">
           <li
             className="bg-lines border projectItem-link hover:cursor-pointer"
-            onClick={() => themeSelect("light")}
+            onClick={() => themeSelect("Light")}
           >
             Light
           </li>
           <li
             className="bg-stone border text-lines projectItem-link hover:cursor-pointer"
-            onClick={() => themeSelect("dark")}
+            onClick={() => themeSelect("Dark")}
           >
             Dark
           </li>
@@ -40,7 +41,7 @@ function ThemeSelector() {
         className="cursor-pointer navbar-link"
         onClick={() => setShowMenu(!showMenu)}
       >
-        {showMenu ? "Close" : "Theme"}
+        {showMenu ? "Close" : `Theme - ${theme}`}
       </button>
     </div>
   );
