@@ -16,7 +16,8 @@
 }
 
 .navbar-link,
-.projectItem-link {
+.projectItem-link,
+.themeBtn {
   border-color: #fdf9ee;
   border-bottom-style: var(--tw-border-style);
   border-bottom-width: 2px;
@@ -31,7 +32,8 @@
   );
 }
 
-.navbar-link:hover {
+.navbar-link:hover,
+.themeBtn:hover {
   border-color: #5d3fd3;
   font-weight: 700;
 }

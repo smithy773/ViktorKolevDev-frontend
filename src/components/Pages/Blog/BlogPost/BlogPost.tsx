@@ -11,7 +11,6 @@ function BlogPost() {
   let { id } = useParams();
   // const post: blogPost =
   //   blogPosts[blogPosts.findIndex((post) => post.id == id)].post;
-  console.log(id);
   const fetchMarkdown = () => {
     fetch(`/pages-markdown/BlogPosts/post_${id}.md`)
       .then((res) => res.text())
@@ -19,9 +18,7 @@ function BlogPost() {
       .catch((err) => console.error("Failed to load markdown:", err));
   };
 
-  useEffect(() => {
-    fetchMarkdown();
-  }, []);
+  fetchMarkdown();
   return (
     <PageCont title="none" description="none">
       <MarkdownRenderer>{content}</MarkdownRenderer>
