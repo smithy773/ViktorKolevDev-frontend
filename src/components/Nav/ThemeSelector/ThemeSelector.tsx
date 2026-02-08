@@ -1,15 +1,24 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function ThemeSelector() {
-  const [theme, setTheme] = useState("Light");
+  const [theme, setTheme] = useState(
+    localStorage.theme === "dark" &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches
+      ? "dark"
+      : "light"
+  );
+
   const [showMenu, setShowMenu] = useState(false);
 
   const themeSelect = (selectedTheme: string) => {
     if (selectedTheme !== theme) {
       setTheme(selectedTheme);
+      document.documentElement.setAttribute("data-theme", selectedTheme);
     }
     setShowMenu(false);
   };
+
+  useEffect(() => {}, []);
 
   return (
     <div className="w-full">
@@ -17,13 +26,13 @@ function ThemeSelector() {
         <menu className="mb-4 flex flex-col gap-2 transition-all w-20 mx-auto">
           <li
             className="bg-lines border projectItem-link hover:cursor-pointer"
-            onClick={() => themeSelect("Light")}
+            onClick={() => themeSelect("light")}
           >
             Light
           </li>
           <li
             className="bg-stone border text-lines projectItem-link hover:cursor-pointer"
-            onClick={() => themeSelect("Dark")}
+            onClick={() => themeSelect("dark")}
           >
             Dark
           </li>
@@ -41,7 +50,11 @@ function ThemeSelector() {
         className="cursor-pointer navbar-link"
         onClick={() => setShowMenu(!showMenu)}
       >
-        {showMenu ? "Close" : `Theme - ${theme}`}
+        {showMenu
+          ? "Close"
+          : `Theme - ${theme} === ${document.documentElement.getAttribute(
+              "data-theme"
+            )}`}
       </button>
     </div>
   );
