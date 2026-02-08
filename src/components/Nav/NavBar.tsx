@@ -1,5 +1,6 @@
 import { NavLink } from "react-router";
 import NavLinkMenu from "./NavLinkMenu";
+import ThemeSelector from "./ThemeSelector/ThemeSelector";
 
 function NavBar() {
   return (
@@ -20,7 +21,7 @@ function NavBar() {
           </NavLink>
         </div>
         <div className="mt-auto text-center">
-          <h1>THEME</h1>
+          <ThemeSelector />
         </div>
       </div>
     </nav>

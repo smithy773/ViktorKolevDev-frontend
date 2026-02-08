@@ -15,7 +15,8 @@
   border-bottom-width: 1px;
 }
 
-.navbar-link {
+.navbar-link,
+.projectItem-link {
   border-color: #fdf9ee;
   border-bottom-style: var(--tw-border-style);
   border-bottom-width: 2px;
@@ -33,4 +34,7 @@
 .navbar-link:hover {
   border-color: #5d3fd3;
   font-weight: 700;
+}
+.projectItem-link:hover {
+  border-color: #5d3fd3;
 }
