@@ -37,13 +37,13 @@ function ThemeSelector() {
       {showMenu ? (
         <menu className="mb-4 flex flex-col gap-2 transition-all w-20 mx-auto">
           <li
-            className="bg-lines border projectItem-link hover:cursor-pointer"
+            className="bg-[#eee0bb] text-[#2b2b2a] border projectItem-link hover:cursor-pointer"
             onClick={() => themeSelect("light")}
           >
             Light
           </li>
           <li
-            className="bg-stone border text-lines projectItem-link hover:cursor-pointer"
+            className="bg-[#2b2b2a] border text-[#eee0bb] projectItem-link hover:cursor-pointer"
             onClick={() => themeSelect("dark")}
           >
             Dark

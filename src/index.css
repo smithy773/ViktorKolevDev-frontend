@@ -1,14 +1,27 @@
 @import "tailwindcss";
 
-@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+:root {
+  --color-bg: #fdf9ee;
+  --color-text: #2b2b2a;
+}
 
-@custom-variant leet (&:where([data-theme=leet], [data-theme=leet] *));
+[data-theme="dark"] {
+  --color-bg: #2b2b2a;
+  --color-text: #eee0bb;
+}
+
+[data-theme="leet"] {
+  --color-bg: #000;
+  --color-text: #00ff00;
+}
 
 @theme {
   --color-background-yellow: #fdf9ee;
   --color-lines: #eee0bb;
-  --color-purple: #5d3fd3;
   --color-stone: #2b2b2a;
+  --color-purple: #5d3fd3;
+  --color-background: var(--color-bg);
+  --color-foreground: var(--color-text);
 }
 
 .nav-border > div {

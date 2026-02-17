@@ -12,7 +12,7 @@ import BlogPost from "./components/Pages/Blog/BlogPost/BlogPost";
 
 function App() {
   return (
-    <div className="dark:bg-stone-900 dark:text-purple leet:bg-black leet:text-green-500 flex justify-center bg-background-yellow h-screen text-stone">
+    <div className="bg-background text-foreground flex justify-center h-screen">
       <div className="flex flex-row my-2.5">
         {/*                                                               */}
         {/* might want to change it so navbar doesn't appear for NotFound */}
