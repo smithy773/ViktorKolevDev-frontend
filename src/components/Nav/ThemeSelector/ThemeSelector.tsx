@@ -1,12 +1,22 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function ThemeSelector() {
-  const [theme, setTheme] = useState(
-    localStorage.theme === "dark" &&
-      window.matchMedia("(prefers-color-scheme: dark)").matches
-      ? "dark"
-      : "light"
-  );
+  const [theme, setTheme] = useState(() => {
+    if (localStorage.theme) {
+      document.documentElement.setAttribute("data-theme", localStorage.theme);
+      return localStorage.theme;
+    }
+
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      document.documentElement.setAttribute("data-theme", "dark");
+      localStorage.theme = "dark";
+      return "dark";
+    } else {
+      document.documentElement.setAttribute("data-theme", "light");
+      localStorage.theme = "light";
+      return "light";
+    }
+  });
 
   const [showMenu, setShowMenu] = useState(false);
 
@@ -16,9 +26,11 @@ function ThemeSelector() {
       document.documentElement.setAttribute("data-theme", selectedTheme);
     }
     setShowMenu(false);
-  };
 
-  useEffect(() => {}, []);
+    console.log(
+      `Current data-theme: ${document.documentElement.getAttribute("data-theme")}`,
+    );
+  };
 
   return (
     <div className="w-full">
@@ -38,7 +50,7 @@ function ThemeSelector() {
           </li>
           <li
             className="bg-black border text-green-500 projectItem-link hover:cursor-pointer"
-            onClick={() => themeSelect("1337")}
+            onClick={() => themeSelect("leet")}
           >
             1337
           </li>
@@ -53,7 +65,7 @@ function ThemeSelector() {
         {showMenu
           ? "Close"
           : `Theme - ${theme} === ${document.documentElement.getAttribute(
-              "data-theme"
+              "data-theme",
             )}`}
       </button>
     </div>

@@ -1,7 +1,7 @@
 import { useParams } from "react-router";
 // import { blogPosts, type blogPost } from "../../../../const/Blog/Blog";
 import PageCont from "../../../Helpers/PageCont/PageCont";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import MarkdownRenderer from "../../../Helpers/MarkdownRenderer/MarkdownRenderer";
 
 // HERE THE CODE SHOULD FETCH A POST BY TAKING THE postID from the URL AND LOAD THE BLOG POST

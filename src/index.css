@@ -2,6 +2,8 @@
 
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
+@custom-variant leet (&:where([data-theme=leet], [data-theme=leet] *));
+
 @theme {
   --color-background-yellow: #fdf9ee;
   --color-lines: #eee0bb;
