@@ -3,6 +3,11 @@
   min-width: 200px;
   max-width: 980px;
   margin: 0 auto;
+  background: var(--color-bg, #fdf9ee);
+  color: var(--color-text, #2b2b2a);
+  transition:
+    background-color 150ms ease,
+    color 150ms ease;
   padding: 45px;
 }
 
