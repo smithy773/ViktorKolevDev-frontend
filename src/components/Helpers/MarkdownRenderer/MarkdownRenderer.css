@@ -17,8 +17,11 @@
   }
 }
 
-/* DARK THEME STYLING */
+.markdown-body h1 {
+  color: var(--color-highlight);
+}
 
+/* DARK THEME STYLING */
 html[data-theme="dark"] .markdown-body table {
   color: #5d3fd3;
 }

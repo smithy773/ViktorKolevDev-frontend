@@ -1,9 +1,10 @@
 import Markdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
 import remarkGfm from "remark-gfm";
-//@ts-ignore
-import "github-markdown-css";
 import "./MarkdownRenderer.css";
+import "./github-markdown-dark.css";
+import "./github-markdown-light.css";
+import "./github-markdown-dark-high-contrast.css";
 import rehypeHighlight from "rehype-highlight";
 
 function MarkdownRenderer({ children }: any) {

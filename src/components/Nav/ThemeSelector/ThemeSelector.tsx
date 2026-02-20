@@ -23,6 +23,7 @@ function ThemeSelector() {
   const themeSelect = (selectedTheme: string) => {
     if (selectedTheme !== theme) {
       setTheme(selectedTheme);
+      localStorage.theme = selectedTheme;
       document.documentElement.setAttribute("data-theme", selectedTheme);
     }
     setShowMenu(false);
