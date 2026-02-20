@@ -8,7 +8,7 @@ function NavBar() {
       <div className="w-36 h-full flex flex-col items-center nav-border">
         <div>
           <NavLink
-            className="hover:text-purple font-medium transition-all text-2xl"
+            className="hover:text-highlight font-medium transition-all text-2xl"
             to="/"
           >
             Viktor Kolev

@@ -19,7 +19,6 @@
 
 /* DARK THEME STYLING */
 
-html[data-theme="dark"] .markdown-body h1,
 html[data-theme="dark"] .markdown-body table {
   color: #5d3fd3;
 }

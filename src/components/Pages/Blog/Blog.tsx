@@ -10,7 +10,7 @@ function Blog() {
   return (
     <PageCont title={blogCont.title} description={blogCont.description}>
       <div className="flex w-full h-full">
-        <div className="w-0.5 bg-purple mr-3"></div>
+        <div className="w-0.5 bg-highlight mr-3"></div>
         <section className="flex flex-col-reverse gap-3">
           {blogCont.blogItems.length > 0
             ? blogCont.blogItems.map((item) => {
