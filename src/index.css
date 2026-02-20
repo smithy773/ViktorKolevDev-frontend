@@ -3,23 +3,26 @@
 :root {
   --color-bg: #fdf9ee;
   --color-text: #2b2b2a;
+  --color-border-lines: #eee0bb;
 }
 
 [data-theme="dark"] {
-  --color-bg: #2b2b2a;
-  --color-text: #eee0bb;
+  --color-bg: #232322;
+  --color-text: #fdf9ee;
+  --color-border-lines: #5d3fd3;
 }
 
 [data-theme="leet"] {
   --color-bg: #000;
   --color-text: #00ff00;
+  --color-border-lines: #00ff00;
 }
 
 @theme {
   --color-background-yellow: #fdf9ee;
-  --color-lines: #eee0bb;
   --color-stone: #2b2b2a;
   --color-purple: #5d3fd3;
+  --color-lines: var(--color-border-lines);
   --color-background: var(--color-bg);
   --color-foreground: var(--color-text);
 }
@@ -28,14 +31,14 @@
   width: 100%;
   padding-bottom: 0.5rem;
   margin-bottom: 0.5rem;
-  border-bottom-color: #eee0bb;
+  border-bottom-color: var(--color-border-lines);
   border-bottom-width: 1px;
 }
 
 .navbar-link,
 .projectItem-link,
 .themeBtn {
-  border-color: #fdf9ee;
+  border-color: var(--color-bg);
   border-bottom-style: var(--tw-border-style);
   border-bottom-width: 2px;
   transition-property: all;

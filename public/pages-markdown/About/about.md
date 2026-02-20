@@ -1,4 +1,4 @@
-## Programming
+# Programming
 
 I try to keep myself busy with projects pretty much all the time. You can find them in my Projects page and on GitHub.
 
@@ -10,9 +10,9 @@ I try to keep myself busy with projects pretty much all the time. You can find t
 | ThreeJS               |         | Remarkable (Markdown Parsing)             |
 |                       |         | JavaFX                                    |
 
-And there are other essentials I've used - npm, vite, git, etc. and I'm learning Java at the moment, which means the list is only expandi further with different tech.
+And there are other essentials I've used - npm, vite, git, etc. and I'm learning Java at the moment, which means the list is only expanding further with different tech.
 
-## Music
+# Music
 
 I was going to do Top 5 albums, songs and musicians, but it was TOO HARD! Here are my favourites.
 
@@ -26,7 +26,7 @@ I was going to do Top 5 albums, songs and musicians, but it was TOO HARD! Here a
 | Daughter - Music from Before The Storm                     | Massive Attack            |
 | Led Zeppelin - Led Zeppelin II                             | Led Zeppelin              |
 
-## Books
+# Books
 
 I try to read books as often as possible - my goal is to keep it at least one book a month. I wouldn't call myself a bookworm, I just love learning about different topics and collecting the books which have helped me do so. Same thing goes for a few comic books, as I find them both a good read and simply very cool. Fiction and non-fiction, I just love opening my mind to different ideas.
 
@@ -38,7 +38,7 @@ I try to read books as often as possible - my goal is to keep it at least one bo
 | Unscripted: Life, Liberty, and the Pursuit of Entrepreneurship | Star Wars: Darth Vader (Charles Soule)      |
 | 1984                                                           | Berserk                                     |
 
-## Movies / Shows
+# Movies / Shows
 
 Movies and TV Shows are a great way to spend your time, especially when eating / snacking. My favourite movies and shows always talk about manhood, love and navigating your way between them (literally each movie and shows below includes those topics one way or another).
 
@@ -52,7 +52,7 @@ Movies and TV Shows are a great way to spend your time, especially when eating /
 | Fight Club         | Supernatural                        |
 | Hesher             | Freaks and Geeks                    |
 
-## Games
+# Games
 
 I love video games, TCGs and board games. Magic The Gathering is basically an addiction of mine, as I'm sitting at around 10+ decks for around 5 formats of the game...
 
@@ -64,7 +64,7 @@ I love video games, TCGs and board games. Magic The Gathering is basically an ad
 | Cyberpunk 2077        | God of War (The Card Game) |                          |
 | Resident Evil (any)   | Tiny Epic Dungeons         |                          |
 
-## PC
+# PC
 
 I decided to share my build, as I found this to be the most cost-efficient quality PC parts for 1440p 144hz 144fps gaming. I use a 3440x1440p curved 34inch OLED monitor, so I need a beefy machine.
 

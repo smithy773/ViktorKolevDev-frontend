@@ -62,11 +62,7 @@ function ThemeSelector() {
         className="cursor-pointer navbar-link"
         onClick={() => setShowMenu(!showMenu)}
       >
-        {showMenu
-          ? "Close"
-          : `Theme - ${theme} === ${document.documentElement.getAttribute(
-              "data-theme",
-            )}`}
+        {showMenu ? "Close" : `Theme`}
       </button>
     </div>
   );

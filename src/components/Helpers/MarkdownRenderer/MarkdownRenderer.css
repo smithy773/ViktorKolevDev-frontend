@@ -16,3 +16,23 @@
     padding: 15px;
   }
 }
+
+/* DARK THEME STYLING */
+
+html[data-theme="dark"] .markdown-body h1,
+html[data-theme="dark"] .markdown-body table {
+  color: #5d3fd3;
+}
+
+html[data-theme="dark"] .markdown-body h6 {
+  color: #eee0bb;
+}
+
+/* 1337 THEME STYLING */
+html[data-theme="leet"] .markdown-body h6 {
+  color: #00ff00;
+}
+
+html[data-theme="leet"] .markdown-body table {
+  color: #2b2b2a;
+}
