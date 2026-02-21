@@ -10,11 +10,10 @@ html[data-theme="leet"] .markdown-body {
   -webkit-text-size-adjust: 100%;
   margin: 0;
   font-weight: 400;
-  color: #ffffff;
-  background-color: #010409;
-  font-family:
-    -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica,
-    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  /* color: #ffffff; */
+  background-color: #000;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
   font-size: 16px;
   line-height: 1.5;
   word-wrap: break-word;
@@ -224,6 +223,7 @@ html[data-theme="leet"] .markdown-body table {
   max-width: 100%;
   overflow: auto;
   font-variant: tabular-nums;
+  color: #f0f6fc;
 }
 
 html[data-theme="leet"] .markdown-body td,
@@ -278,14 +278,8 @@ html[data-theme="leet"] .markdown-body input[type="checkbox"]:focus-visible {
 html[data-theme="leet"] .markdown-body kbd {
   display: inline-block;
   padding: 0.25rem;
-  font:
-    11px ui-monospace,
-    SFMono-Regular,
-    SF Mono,
-    Menlo,
-    Consolas,
-    Liberation Mono,
-    monospace;
+  font: 11px ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
+    Liberation Mono, monospace;
   line-height: 10px;
   color: #ffffff;
   vertical-align: middle;
@@ -333,7 +327,7 @@ html[data-theme="leet"] .markdown-body h5 {
 html[data-theme="leet"] .markdown-body h6 {
   font-weight: 600;
   font-size: 0.85em;
-  color: #b7bdc8;
+  color: #00ff00;
 }
 
 html[data-theme="leet"] .markdown-body p {
@@ -374,28 +368,16 @@ html[data-theme="leet"] .markdown-body dd {
 html[data-theme="leet"] .markdown-body tt,
 html[data-theme="leet"] .markdown-body code,
 html[data-theme="leet"] .markdown-body samp {
-  font-family:
-    ui-monospace,
-    SFMono-Regular,
-    SF Mono,
-    Menlo,
-    Consolas,
-    Liberation Mono,
-    monospace;
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
+    Liberation Mono, monospace;
   font-size: 12px;
 }
 
 html[data-theme="leet"] .markdown-body pre {
   margin-top: 0;
   margin-bottom: 0;
-  font-family:
-    ui-monospace,
-    SFMono-Regular,
-    SF Mono,
-    Menlo,
-    Consolas,
-    Liberation Mono,
-    monospace;
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
+    Liberation Mono, monospace;
   font-size: 12px;
   word-wrap: normal;
 }
