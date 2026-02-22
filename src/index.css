@@ -51,9 +51,12 @@
   border-bottom-width: 1px;
 }
 
+/* LINKS (NAVBAR LINKS, PROJECTITEM LINKS, FOOTER LINKS) */
+
 .navbar-link,
 .projectItem-link,
-.themeBtn {
+.themeBtn,
+.footer-link {
   border-color: var(--color-bg);
   border-bottom-style: var(--tw-border-style);
   border-bottom-width: 2px;
@@ -73,6 +76,22 @@
   border-color: var(--color-theme-highlight);
   font-weight: 700;
 }
-.projectItem-link:hover {
+.projectItem-link:hover,
+.footer-link:hover {
   border-color: var(--color-theme-highlight);
+}
+
+.footer-link-light,
+.footer-link-dark,
+.footer-link-leet {
+  display: none;
+}
+
+html[data-theme="light"] .footer-link-dark {
+  display: block;
+}
+
+html[data-theme="dark"] .footer-link-light,
+html[data-theme="leet"] .footer-link-light {
+  display: block;
 }
