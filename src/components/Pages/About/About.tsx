@@ -18,16 +18,17 @@ function About() {
     <PageCont title="About me" description="none">
       <div>
         {/* MAKE AGE DYNAMIC */}
-        <section className="flex justify-between">
-          <p className="w-md">
-            I'm Viktor Kolev - a 22 year old guy from Bulgaria. I've been
-            studying Frontend Development since 2023 and in late 2025 I decided
-            to learn some Java to expand my knowledge and skills. This is my own
-            website! Pretty much everything is built from the ground up by me
-            and I'm quite proud of that. As for me, I'm a metalhead that loves
-            playing videogames with friends, drawing / painting, playing guitar
-            or bass, reading different kinds of books, backpacking, bushcrafting
-            and many other silly endeavours.
+        <section className="flex gap-25 items-center">
+          <p className="w-md ml-8 text-xl">
+            I'm Viktor Kolev - a{" "}
+            {new Date().getMonth() >= 6 && new Date().getDate() >= 7
+              ? new Date().getFullYear() - 2003
+              : new Date().getFullYear() - 2004}{" "}
+            year old guy from Bulgaria. I've been studying Frontend Development
+            since 2023 and in late 2025 I decided to learn some Java to expand
+            my knowledge and skills. I love playing videogames with friends,
+            drawing / painting, playing guitar or bass, reading different kinds
+            of books, backpacking, bushcrafting and many other silly endeavours.
           </p>
           <div className="flex flex-col items-center">
             <img
@@ -40,7 +41,6 @@ function About() {
           </div>
         </section>
         <section>
-          {/* Insert markdown file via or other similar thing */}
           <MarkdownRenderer>{content}</MarkdownRenderer>
         </section>
       </div>

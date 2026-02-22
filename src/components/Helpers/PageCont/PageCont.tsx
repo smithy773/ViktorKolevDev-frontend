@@ -1,8 +1,3 @@
-// TITLE:
-// CHANGE TYPES
-// MAKE TITLE INTO IMAGE
-// DESCRIPTION!!!
-
 function PageCont(props: any) {
   return (
     <div className="overflow-hidden max-w-full max-h-full w-full h-full">
@@ -11,7 +6,7 @@ function PageCont(props: any) {
           {props.title == "none" ? (
             ""
           ) : (
-            <h1 className="text-5xl mb-10">{props.title}</h1>
+            <h1 className="text-5xl mt-5 mb-10">{props.title}</h1>
           )}
           {props.description == "none" ? "" : <p>{props.description}</p>}
         </section>

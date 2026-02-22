@@ -5,7 +5,7 @@ I try to keep myself busy with projects pretty much all the time. You can find t
 | Frontend              | Backend | Popular stuff I've utilized               |
 | --------------------- | ------- | ----------------------------------------- |
 | HTML/CSS              | Java    | Firebase (hosting, auth, data)            |
-| JavaScript/TypeScript | Python  | ThreeJS (rednering 3D Models in websites) |
+| JavaScript/TypeScript | Python  | ThreeJS (rendering 3D Models in websites) |
 | React                 |         | TailwindCSS, Bootstrap (CSS libraries)    |
 | ThreeJS               |         | Remarkable (Markdown Parsing)             |
 |                       |         | JavaFX                                    |

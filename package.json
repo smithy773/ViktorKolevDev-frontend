@@ -13,7 +13,6 @@
     "@tailwindcss/vite": "^4.1.18",
     "eslint-plugin-react-dom": "^2.7.4",
     "eslint-plugin-react-x": "^2.7.4",
-    "github-markdown-css": "^5.9.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-markdown": "^10.1.0",
