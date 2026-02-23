@@ -4,16 +4,16 @@ function NavLinkMenu() {
   return (
     <div className="flex flex-col items-center w-full">
       <div className="flex flex-col items-left gap-1 w-[6.352rem]">
-        <NavLink className="navbar-link" to="/blog">
+        <NavLink className="underline-hover" to="/blog">
           📑 Blog
         </NavLink>
-        <NavLink className="navbar-link" to="/projects">
+        <NavLink className="underline-hover" to="/projects">
           ⚙️ Projects
         </NavLink>
-        <NavLink className="navbar-link" to="/portfolio">
+        <NavLink className="underline-hover" to="/portfolio">
           🪪 Portfolio
         </NavLink>
-        <NavLink className="navbar-link" to="/about">
+        <NavLink className="underline-hover" to="/about">
           🐻 About Me
         </NavLink>
       </div>

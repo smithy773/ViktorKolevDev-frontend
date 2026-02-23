@@ -30,8 +30,8 @@ function ThemeSelector() {
 
     console.log(
       `Current data-theme: ${document.documentElement.getAttribute(
-        "data-theme"
-      )}`
+        "data-theme",
+      )}`,
     );
   };
 
@@ -40,19 +40,19 @@ function ThemeSelector() {
       {showMenu ? (
         <menu className="mb-4 flex flex-col gap-2 transition-all w-20 mx-auto">
           <li
-            className="bg-[#eee0bb] text-stone border projectItem-link hover:cursor-pointer"
+            className="bg-[#eee0bb] text-stone border .underline-hover hover:cursor-pointer"
             onClick={() => themeSelect("light")}
           >
             Light
           </li>
           <li
-            className="bg-stone border text-[#eee0bb] projectItem-link hover:cursor-pointer"
+            className="bg-stone border text-[#eee0bb] underline-hover hover:cursor-pointer"
             onClick={() => themeSelect("dark")}
           >
             Dark
           </li>
           <li
-            className="bg-black border text-green-500 projectItem-link hover:cursor-pointer"
+            className="bg-black border text-green-500 underline-hover hover:cursor-pointer"
             onClick={() => themeSelect("leet")}
           >
             1337
@@ -62,7 +62,7 @@ function ThemeSelector() {
         ""
       )}
       <button
-        className="cursor-pointer navbar-link"
+        className="cursor-pointer underline-hover"
         onClick={() => setShowMenu(!showMenu)}
       >
         {showMenu ? "Close" : `Theme`}

@@ -16,7 +16,7 @@ function NavBar() {
         </div>
         <NavLinkMenu />
         <div className="text-center">
-          <NavLink className="navbar-link" to="/contact">
+          <NavLink className="underline-hover" to="/contact">
             💬 Contact me
           </NavLink>
         </div>

@@ -4,18 +4,20 @@ type HomeItemProps = {
   title: string;
   description: string;
   navPath: string;
-  navIcon: string;
+  children?: React.ReactNode;
 };
 
-function HomeItem({ title, description, navPath, navIcon }: HomeItemProps) {
+function HomeItem({ title, description, navPath, children }: HomeItemProps) {
   return (
-    <div>
-      <h3>{title}</h3>
-      <p>{description}</p>
+    <article>
       <NavLink to={navPath}>
-        <img src={navIcon} className="w-max h-52" />
+        <h3 className="py-2 w-fit text-highlight font-bold text-4xl">
+          {title}
+        </h3>
       </NavLink>
-    </div>
+      <p className="">{description}</p>
+      {children}
+    </article>
   );
 }
 

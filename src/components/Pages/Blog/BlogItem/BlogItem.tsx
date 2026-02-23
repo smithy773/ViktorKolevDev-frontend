@@ -10,7 +10,6 @@ type BlogItemTypes = {
 function BlogItem({ postTitle, postDate, postID, showDate }: BlogItemTypes) {
   const navigate = useNavigate();
   return (
-    // ADD onClick logic to navigate to "/blog/postID"
     <div className="flex gap-8 items-center">
       <span className="w-10 font-bold text-highlight">
         {showDate == 0 ? "" : <p className="border-b">{showDate}</p>}

@@ -14,9 +14,6 @@ function App() {
   return (
     <div className="bg-background text-foreground flex justify-center h-screen">
       <div className="flex flex-row my-2.5">
-        {/*                                                               */}
-        {/* might want to change it so navbar doesn't appear for NotFound */}
-        {/*                                                               */}
         <NavBar />
         <main className="border-l border-lines flex flex-col mx-4 px-4 w-4xl">
           <Routes>

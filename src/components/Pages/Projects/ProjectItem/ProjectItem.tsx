@@ -13,11 +13,11 @@ function ProjectItem({ title, description, gitHubURL, url }: ProjectItemProps) {
         {description}
       </p>
       <div className="flex justify-center gap-15">
-        <a className="projectItem-link" target="_blank" href={gitHubURL}>
+        <a className="underline-hover" target="_blank" href={gitHubURL}>
           GitHub
         </a>
         {url ? (
-          <a className="projectItem-link" target="_blank" href={url}>
+          <a className="underline-hover" target="_blank" href={url}>
             Live site
           </a>
         ) : (

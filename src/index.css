@@ -53,10 +53,7 @@
 
 /* LINKS (NAVBAR LINKS, PROJECTITEM LINKS, FOOTER LINKS) */
 
-.navbar-link,
-.projectItem-link,
-.themeBtn,
-.footer-link {
+.underline-hover {
   border-color: var(--color-bg);
   border-bottom-style: var(--tw-border-style);
   border-bottom-width: 2px;
@@ -69,16 +66,12 @@
     --tw-duration,
     var(--default-transition-duration) /* 150ms */
   );
+  border-radius: var(--radius-md);
 }
 
-.navbar-link:hover,
-.themeBtn:hover {
+.underline-hover:hover {
   border-color: var(--color-theme-highlight);
-  font-weight: 700;
-}
-.projectItem-link:hover,
-.footer-link:hover {
-  border-color: var(--color-theme-highlight);
+  background-color: var(--color-border-lines);
 }
 
 .footer-link-light,

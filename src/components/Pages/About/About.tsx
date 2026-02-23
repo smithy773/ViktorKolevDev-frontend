@@ -17,7 +17,6 @@ function About() {
   return (
     <PageCont title="About me" description="none">
       <div>
-        {/* MAKE AGE DYNAMIC */}
         <section className="flex gap-25 items-center">
           <p className="w-md ml-8 text-xl">
             I'm Viktor Kolev - a{" "}

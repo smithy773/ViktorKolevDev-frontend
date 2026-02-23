@@ -1,5 +1,4 @@
 import { useParams } from "react-router";
-// import { blogPosts, type blogPost } from "../../../../const/Blog/Blog";
 import PageCont from "../../../Helpers/PageCont/PageCont";
 import { useState } from "react";
 import MarkdownRenderer from "../../../Helpers/MarkdownRenderer/MarkdownRenderer";
@@ -9,8 +8,6 @@ import MarkdownRenderer from "../../../Helpers/MarkdownRenderer/MarkdownRenderer
 function BlogPost() {
   const [content, setContent] = useState("");
   let { id } = useParams();
-  // const post: blogPost =
-  //   blogPosts[blogPosts.findIndex((post) => post.id == id)].post;
   const fetchMarkdown = () => {
     fetch(`/pages-markdown/BlogPosts/post_${id}.md`)
       .then((res) => res.text())
