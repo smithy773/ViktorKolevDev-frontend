@@ -3,16 +3,20 @@ import { NavLink } from "react-router";
 function NavLinkMenu() {
   return (
     <div className="flex flex-col items-center w-full">
-      <div className="flex flex-col items-left gap-1 w-[6.352rem]">
+      <div className="flex flex-col items-left gap-1 w-28">
         <NavLink className="underline-hover" to="/blog">
           📑 Blog
         </NavLink>
         <NavLink className="underline-hover" to="/projects">
           ⚙️ Projects
         </NavLink>
-        <NavLink className="underline-hover" to="/portfolio">
+        <a
+          className="underline-hover"
+          href="https://js-portfolio-78b1a.web.app/"
+          target="_blank"
+        >
           🪪 Portfolio
-        </NavLink>
+        </a>
         <NavLink className="underline-hover" to="/about">
           🐻 About Me
         </NavLink>

@@ -52,8 +52,12 @@
 }
 
 /* LINKS (NAVBAR LINKS, PROJECTITEM LINKS, FOOTER LINKS) */
+/* FIX THEME BUTTONS STYLING WHEN HOVERED (BACKGROUND COLOR IS WRONG) */
+/* FIX SHADOWS */
 
 .underline-hover {
+  box-shadow: 0px 2px 2px -2px #2b2b2a;
+  padding: 0 4px;
   border-color: var(--color-bg);
   border-bottom-style: var(--tw-border-style);
   border-bottom-width: 2px;
@@ -67,6 +71,10 @@
     var(--default-transition-duration) /* 150ms */
   );
   border-radius: var(--radius-md);
+}
+
+html[data-theme="dark"] .underline-hover {
+  box-shadow: 0px 2px 2px -1.75px #f0f6fc;
 }
 
 .underline-hover:hover {
