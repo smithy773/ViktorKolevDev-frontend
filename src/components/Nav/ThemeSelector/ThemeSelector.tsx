@@ -40,19 +40,19 @@ function ThemeSelector() {
       {showMenu ? (
         <menu className="mb-4 flex flex-col gap-2 transition-all w-20 mx-auto">
           <li
-            className="bg-[#eee0bb] text-stone border .underline-hover hover:cursor-pointer"
+            className="theme-btn theme-btn-light"
             onClick={() => themeSelect("light")}
           >
             Light
           </li>
           <li
-            className="bg-stone border text-[#eee0bb] underline-hover hover:cursor-pointer"
+            className="theme-btn theme-btn-dark"
             onClick={() => themeSelect("dark")}
           >
             Dark
           </li>
           <li
-            className="bg-black border text-green-500 underline-hover hover:cursor-pointer"
+            className="theme-btn theme-btn-leet"
             onClick={() => themeSelect("leet")}
           >
             1337

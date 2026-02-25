@@ -12,8 +12,9 @@ html[data-theme="leet"] .markdown-body {
   font-weight: 400;
   /* color: #ffffff; */
   background-color: #000;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
-    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
   font-size: 16px;
   line-height: 1.5;
   word-wrap: break-word;
@@ -74,6 +75,7 @@ html[data-theme="leet"] .markdown-body abbr[title] {
 html[data-theme="leet"] .markdown-body b,
 html[data-theme="leet"] .markdown-body strong {
   font-weight: 600;
+  color: var(--color-theme-highlight);
 }
 
 html[data-theme="leet"] .markdown-body dfn {
@@ -278,8 +280,14 @@ html[data-theme="leet"] .markdown-body input[type="checkbox"]:focus-visible {
 html[data-theme="leet"] .markdown-body kbd {
   display: inline-block;
   padding: 0.25rem;
-  font: 11px ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
-    Liberation Mono, monospace;
+  font:
+    11px ui-monospace,
+    SFMono-Regular,
+    SF Mono,
+    Menlo,
+    Consolas,
+    Liberation Mono,
+    monospace;
   line-height: 10px;
   color: #ffffff;
   vertical-align: middle;
@@ -368,16 +376,28 @@ html[data-theme="leet"] .markdown-body dd {
 html[data-theme="leet"] .markdown-body tt,
 html[data-theme="leet"] .markdown-body code,
 html[data-theme="leet"] .markdown-body samp {
-  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
-    Liberation Mono, monospace;
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    SF Mono,
+    Menlo,
+    Consolas,
+    Liberation Mono,
+    monospace;
   font-size: 12px;
 }
 
 html[data-theme="leet"] .markdown-body pre {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
-    Liberation Mono, monospace;
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    SF Mono,
+    Menlo,
+    Consolas,
+    Liberation Mono,
+    monospace;
   font-size: 12px;
   word-wrap: normal;
 }

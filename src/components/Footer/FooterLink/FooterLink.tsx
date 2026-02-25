@@ -10,8 +10,8 @@ type FooterLinkProps = {
 
 function FooterLink({ href, to }: FooterLinkProps) {
   return (
-    <div>
-      <a className="underline-hover" href={href} target="_blank">
+    <div className="background-green">
+      <a href={href} target="_blank">
         <img
           src={to == "GitHub" ? ghLightLogo : linkedinLightLogo}
           className="footer-link-light"

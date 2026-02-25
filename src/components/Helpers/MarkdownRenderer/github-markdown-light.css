@@ -12,8 +12,9 @@ html[data-theme="light"] .markdown-body {
   font-weight: 400;
   color: #1f2328;
   background-color: #fdf9ee;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
-    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
   font-size: 16px;
   line-height: 1.5;
   word-wrap: break-word;
@@ -74,6 +75,7 @@ html[data-theme="light"] .markdown-body abbr[title] {
 html[data-theme="light"] .markdown-body b,
 html[data-theme="light"] .markdown-body strong {
   font-weight: 600;
+  color: var(--color-theme-highlight);
 }
 
 html[data-theme="light"] .markdown-body dfn {
@@ -223,7 +225,7 @@ html[data-theme="light"] .markdown-body table {
   max-width: 100%;
   overflow: auto;
   font-variant: tabular-nums;
-  color: var(--color-highlightColor);
+  color: var(--color-theme-highlight);
 }
 
 html[data-theme="light"] .markdown-body td,
@@ -278,8 +280,14 @@ html[data-theme="light"] .markdown-body input[type="checkbox"]:focus-visible {
 html[data-theme="light"] .markdown-body kbd {
   display: inline-block;
   padding: 0.25rem;
-  font: 11px ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
-    Liberation Mono, monospace;
+  font:
+    11px ui-monospace,
+    SFMono-Regular,
+    SF Mono,
+    Menlo,
+    Consolas,
+    Liberation Mono,
+    monospace;
   line-height: 10px;
   color: #1f2328;
   vertical-align: middle;
@@ -368,16 +376,28 @@ html[data-theme="light"] .markdown-body dd {
 html[data-theme="light"] .markdown-body tt,
 html[data-theme="light"] .markdown-body code,
 html[data-theme="light"] .markdown-body samp {
-  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
-    Liberation Mono, monospace;
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    SF Mono,
+    Menlo,
+    Consolas,
+    Liberation Mono,
+    monospace;
   font-size: 12px;
 }
 
 html[data-theme="light"] .markdown-body pre {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
-    Liberation Mono, monospace;
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    SF Mono,
+    Menlo,
+    Consolas,
+    Liberation Mono,
+    monospace;
   font-size: 12px;
   word-wrap: normal;
 }
