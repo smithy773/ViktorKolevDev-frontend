@@ -8,7 +8,11 @@ function PageCont(props: any) {
           ) : (
             <h1 className="text-5xl font-semibold mt-5 mb-10">{props.title}</h1>
           )}
-          {props.description == "none" ? "" : <p>{props.description}</p>}
+          {props.description == "none" ? (
+            ""
+          ) : (
+            <p className="text-xl">{props.description}</p>
+          )}
         </section>
         <section className="my-10">{props.children}</section>
       </div>

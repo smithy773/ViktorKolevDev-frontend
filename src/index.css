@@ -154,14 +154,34 @@ html[data-theme="dark"] .shadow_under {
   color: #00ff00;
   border-color: #00ff00;
 }
-
+html[data-theme="leet"] .underline-hover:hover,
+html[data-theme="leet"] .project-item-link:hover,
 .theme-btn-leet:hover {
   background-color: #00ff00;
   border-color: #00ff00;
   color: #000;
 }
 
-/*  */
+/* CONTACT ME STYLING */
+.contact-label-input-div {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--spacing) * 2);
+}
+
+.contact-input {
+  border-style: var(--tw-border-style);
+  border-width: 1px;
+  border-color: var(--color-border-lines);
+  background-color: var(--color-bg);
+  border-radius: var(--radius-md);
+}
+
+.contact-label {
+  color: var(--color-text);
+  font-size: var(--text-xl) /* 1.25rem = 20px */;
+  line-height: var(--tw-leading, var(--text-xl--line-height));
+}
 
 .footer-link-light,
 .footer-link-dark,
