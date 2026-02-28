@@ -175,6 +175,9 @@ html[data-theme="leet"] .project-item-link:hover,
   border-color: var(--color-border-lines);
   background-color: var(--color-bg);
   border-radius: var(--radius-md);
+  padding: calc(var(--spacing) * 1.5);
+  font-size: var(--text-lg);
+  line-height: var(--tw-leading, var(--text-lg--line-height));
 }
 
 .contact-label {
@@ -182,6 +185,46 @@ html[data-theme="leet"] .project-item-link:hover,
   font-size: var(--text-xl) /* 1.25rem = 20px */;
   line-height: var(--tw-leading, var(--text-xl--line-height));
 }
+
+html[data-theme="light"] .formSubmitBtn {
+  background-color: var(--color-theme-highlight);
+  color: var(--color-bg);
+  border-color: var(--color-theme-highlight);
+}
+
+html[data-theme="light"] .formSubmitBtn:hover {
+  background-color: var(--color-bg);
+  color: var(--color-theme-highlight);
+  border-color: var(--color-theme-highlight);
+}
+
+html[data-theme="dark"] .formSubmitBtn {
+  background-color: var(--color-item-bg);
+  color: var(--color-text);
+  border-color: var(--color-border-lines);
+}
+
+html[data-theme="leet"] .formSubmitBtn {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  border-color: var(--color-border-lines);
+}
+
+html[data-theme="dark"] .formSubmitBtn:hover {
+  background-color: var(--color-theme-highlight);
+}
+
+html[data-theme="leet"] .formSubmitBtn:hover {
+  background-color: var(--color-text);
+}
+
+html[data-theme="dark"] .formSubmitBtn:hover,
+html[data-theme="leet"] .formSubmitBtn:hover {
+  color: var(--color-bg);
+  border-color: var(--color-border-lines);
+}
+
+/* FOOTER STYLING */
 
 .footer-link-light,
 .footer-link-dark,
