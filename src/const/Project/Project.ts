@@ -7,11 +7,18 @@ type projectsType = {
 
 export const projects: projectsType = [
   {
-    title: "Hangman",
+    title: "website-frontend",
     description:
-      "The classic Hangman game, but online. Built with TypeScript + React.",
-    gitHubURL: "https://github.com/smithy773/hangman-game-TS-React",
-    url: "https://hangman-ts.web.app/",
+      "This website's frontend. Built with TypeScript + React and TailwindCSS.",
+    gitHubURL: "https://github.com/smithy773/ViktorKolevDev-frontend",
+    url: "",
+  },
+  {
+    title: "java-AudioPlayer",
+    description:
+      "A Java audio player. It has a simple UI and basic features like play, pause, stop, next and previous.",
+    gitHubURL: "https://github.com/smithy773/java-AudioPlayer",
+    url: "asd",
   },
   {
     title: "Threejs-portfolio",
@@ -19,5 +26,12 @@ export const projects: projectsType = [
       "My portfolio built with TypeScript + React and ThreeJS. Used TailwindCSS for the design.",
     gitHubURL: "https://github.com/smithy773/Threejs-portfolio",
     url: "https://js-portfolio-78b1a.web.app/",
+  },
+  {
+    title: "Hangman",
+    description:
+      "The classic Hangman game, but online. Built with TypeScript + React.",
+    gitHubURL: "https://github.com/smithy773/hangman-game-TS-React",
+    url: "https://hangman-ts.web.app/",
   },
 ];
