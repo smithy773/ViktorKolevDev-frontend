@@ -4,13 +4,10 @@ import ThemeSelector from "./ThemeSelector/ThemeSelector";
 
 function NavBar() {
   return (
-    <nav className="">
-      <div className="w-36 h-full flex flex-col items-center nav-border">
-        <div>
-          <NavLink
-            className="hover:text-highlight font-medium transition-all text-2xl"
-            to="/"
-          >
+    <section className="navbar-section">
+      <nav className="navbar-container nav-border items-center my-2">
+        <div className="">
+          <NavLink className="title-link transition-all" to="/">
             Viktor Kolev
           </NavLink>
         </div>
@@ -20,11 +17,11 @@ function NavBar() {
             💬 Contact me
           </NavLink>
         </div>
-        <div className="mt-auto text-center">
+        <div className="themecont lg:mt-auto ml-auto text-center">
           <ThemeSelector />
         </div>
-      </div>
-    </nav>
+      </nav>
+    </section>
   );
 }
 

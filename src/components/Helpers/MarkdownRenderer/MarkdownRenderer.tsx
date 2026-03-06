@@ -9,7 +9,7 @@ import rehypeHighlight from "rehype-highlight";
 
 function MarkdownRenderer({ children }: any) {
   return (
-    <div className="markdown-body">
+    <div className="markdown-body bg-background">
       <Markdown
         remarkPlugins={[remarkGfm]}
         rehypePlugins={[rehypeRaw, rehypeHighlight]}

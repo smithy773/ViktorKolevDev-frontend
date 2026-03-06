@@ -2,8 +2,8 @@ import { NavLink } from "react-router";
 
 function NavLinkMenu() {
   return (
-    <div className="flex flex-col items-center w-full">
-      <div className="flex flex-col items-left gap-1 w-28">
+    <div className="navlinkmenu-container">
+      <div className="navlinkmenu-links">
         <NavLink className="underline-hover" to="/blog">
           📑 Blog
         </NavLink>

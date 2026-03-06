@@ -12,10 +12,10 @@ import BlogPost from "./components/Pages/Blog/BlogPost/BlogPost";
 
 function App() {
   return (
-    <div className="bg-background text-foreground flex justify-center h-screen">
-      <div className="flex flex-row my-2.5">
+    <main className="app-container bg-background">
+      <main className="main-container">
         <NavBar />
-        <main className="border-l border-lines flex flex-col mx-4 px-4 w-4xl">
+        <section className="footer-styling lg:border-l border-lines flex flex-col lg:mx-4 px-6 w-full lg:w-4xl h-full">
           <Routes>
             <Route index element={<Home />} />
             <Route path="/projects" element={<Projects />} />
@@ -27,9 +27,9 @@ function App() {
             <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer />
-        </main>
-      </div>
-    </div>
+        </section>
+      </main>
+    </main>
   );
 }
 
