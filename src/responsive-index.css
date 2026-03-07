@@ -122,10 +122,10 @@
     gap: 0;
   }
 
-  .navbar-section {
+  /* .navbar-section {
     --tw-font-weight: var(--font-weight-normal);
     font-weight: var(--font-weight-normal);
-  }
+  } */
 
   .navbar-container > div {
     padding-inline: calc(var(--spacing) * 2);
@@ -148,5 +148,21 @@
 @media (max-width: 25.313rem) {
   .themecont {
     border: none;
+  }
+
+  .title-link {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 22.625rem) {
+  .mobile-title {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .title {
+    display: none;
   }
 }

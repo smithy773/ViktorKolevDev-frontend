@@ -81,7 +81,8 @@ html[data-theme="leet"] .shadow_under {
   color: var(--color-highlight);
 }
 
-.navLinkMenuMobile-container {
+.navLinkMenuMobile-container,
+.mobile-title {
   display: none;
 }
 

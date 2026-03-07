@@ -9,7 +9,8 @@ function NavBar() {
       <nav className="navbar-container nav-border items-center my-2">
         <div>
           <NavLink className="title-link transition-all" to="/">
-            Viktor Kolev
+            <p className="title">Viktor Kolev</p>
+            <p className="mobile-title">VK</p>
           </NavLink>
         </div>
         <NavLinkMenuMobile />
