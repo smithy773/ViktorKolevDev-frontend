@@ -38,26 +38,28 @@ function ThemeSelector() {
   return (
     <div className="w-full">
       {showMenu ? (
-        <menu className="mb-4 flex flex-col gap-2 transition-all w-20 mx-auto">
-          <li
-            className="theme-btn theme-btn-light"
-            onClick={() => themeSelect("light")}
-          >
-            Light
-          </li>
-          <li
-            className="theme-btn theme-btn-dark"
-            onClick={() => themeSelect("dark")}
-          >
-            Dark
-          </li>
-          <li
-            className="theme-btn theme-btn-leet"
-            onClick={() => themeSelect("leet")}
-          >
-            1337
-          </li>
-        </menu>
+        <div className="themeMenuCont">
+          <menu className="mb-4 flex flex-col gap-2 transition-all w-20 mx-auto">
+            <li
+              className="theme-btn theme-btn-light"
+              onClick={() => themeSelect("light")}
+            >
+              Light
+            </li>
+            <li
+              className="theme-btn theme-btn-dark"
+              onClick={() => themeSelect("dark")}
+            >
+              Dark
+            </li>
+            <li
+              className="theme-btn theme-btn-leet"
+              onClick={() => themeSelect("leet")}
+            >
+              1337
+            </li>
+          </menu>
+        </div>
       ) : (
         ""
       )}

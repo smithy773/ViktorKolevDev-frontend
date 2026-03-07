@@ -18,7 +18,7 @@ function NavLinkMenu() {
           🪪 Portfolio
         </a>
         <NavLink className="underline-hover" to="/about">
-          🐻 About Me
+          🐻 About
         </NavLink>
       </div>
     </div>
