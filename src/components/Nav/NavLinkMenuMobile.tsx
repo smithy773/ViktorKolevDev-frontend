@@ -5,7 +5,7 @@ function NavLinkMenuMobile() {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <div className="navLinkMenuMobile-container text-center">
+    <div className="navLinkMenuMobile-container">
       <button
         className="underline-hover cursor-pointer"
         onClick={() => setShowMenu(!showMenu)}
@@ -13,8 +13,11 @@ function NavLinkMenuMobile() {
         {showMenu ? "_____" : "Pages"}
       </button>
       {showMenu ? (
-        <div className="">
-          <div className="pagesMenuCont flex flex-col">
+        <div>
+          <div
+            className="pagesMenuCont flex flex-col"
+            onClick={() => setShowMenu(!showMenu)}
+          >
             <NavLink className="underline-hover" to="/blog">
               📑 Blog
             </NavLink>
