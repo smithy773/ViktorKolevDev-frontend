@@ -17,8 +17,8 @@ function About() {
   return (
     <PageCont title="About me" description="none">
       <div>
-        <section className="flex gap-25 items-center">
-          <p className="w-md ml-8 text-xl">
+        <section className="about-desc flex gap-8">
+          <p className="w-full text-xl">
             I'm Viktor Kolev - a{" "}
             {new Date().getMonth() >= 6 && new Date().getDate() >= 7
               ? new Date().getFullYear() - 2003
@@ -32,7 +32,7 @@ function About() {
           <div className="flex flex-col items-center">
             <img
               src="/imgs/me and bubka.jpg"
-              className="h-auto w-3xs"
+              className="h-auto pageCont-img rounded-lg object-cover"
               alt="Me and my lady"
               title="A pic of me and my lady"
             />

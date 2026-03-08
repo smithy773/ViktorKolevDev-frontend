@@ -2,7 +2,7 @@ function PageCont(props: any) {
   return (
     <div className="overflow-hidden max-w-full max-h-full w-full h-full">
       <div className="w-full h-full overflow-y-scroll box-content pr-5">
-        <section>
+        <section className="pageCont-title">
           {props.title == "none" ? (
             ""
           ) : (

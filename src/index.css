@@ -138,6 +138,13 @@ html[data-theme="dark"] .project-item-link:hover {
   color: var(--color-text);
 }
 
+/* about description - responsive */
+
+.about-desc {
+  display: flex;
+  align-items: center;
+}
+
 /* THEME BUTTONS */
 
 .theme-btn {
