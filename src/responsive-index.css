@@ -127,6 +127,12 @@
   }
 }
 
+@media (min-width: 52.563rem) {
+  .form-element {
+    margin-inline: calc(var(--spacing) * 25);
+  }
+}
+
 @media (min-width: 45.625rem) {
   .about-desc {
     gap: calc(var(--spacing) * 25);
@@ -135,6 +141,15 @@
 
   .about-desc > p {
     margin-left: calc(var(--spacing) * 8);
+  }
+
+  .form-section {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(6, minmax(0, 1fr));
+  }
+
+  .grid-col2 {
+    grid-column: span 2 / span 2;
   }
 }
 
@@ -160,6 +175,11 @@
 
   .about-desc {
     flex-direction: column;
+  }
+
+  .form-section {
+    grid-template-rows: repeat(7, minmax(0, 1fr));
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
 

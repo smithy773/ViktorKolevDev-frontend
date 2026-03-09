@@ -27,11 +27,11 @@ function ContactMe() {
       <div className="flex justify-center w-full">
         <form
           id="contact-form"
-          className="flex flex-col bg-item-background p-6 w-full mx-25 rounded-lg"
+          className="form-element flex flex-col bg-item-background p-6 w-full rounded-lg"
           onSubmit={(e) => handleSubmit(e)}
         >
           <input type="hidden" name="time" value="Mar 10 2025 08:46" />
-          <section className="grid grid-cols-2 grid-rows-6 gap-4">
+          <section className="form-section grid gap-4">
             <div className="contact-label-input-div">
               <label className="contact-label">Name</label>
               <input
@@ -50,7 +50,7 @@ function ContactMe() {
                 required
               />
             </div>
-            <div className="contact-label-input-div col-span-2">
+            <div className="contact-label-input-div grid-col2">
               <label className="contact-label">Subject</label>
               <input
                 className="contact-input"
@@ -59,7 +59,7 @@ function ContactMe() {
                 required
               />
             </div>
-            <div className="contact-label-input-div col-span-2 row-span-4">
+            <div className="contact-label-input-div grid-col2 row-span-4">
               <label className="contact-label">Message</label>
               <textarea
                 className="contact-input h-full"
