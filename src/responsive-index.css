@@ -125,11 +125,21 @@
   .navbar-container > div {
     padding-inline: calc(var(--spacing) * 2);
   }
+
+  .project-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: calc(var(--spacing) * 5);
+  }
 }
 
 @media (min-width: 52.563rem) {
   .form-element {
     margin-inline: calc(var(--spacing) * 25);
+  }
+
+  .project-container {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: calc(var(--spacing) * 3);
   }
 }
 
@@ -180,6 +190,27 @@
   .form-section {
     grid-template-rows: repeat(7, minmax(0, 1fr));
     grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 37.5rem) {
+  .project-container {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: calc(var(--spacing) * 5);
+  }
+
+  .project-item-container {
+    width: 100%;
+  }
+
+  .project-item-container > h3 {
+    font-size: var(--text-3xl);
+    line-height: var(--tw-leading, var(--text-3xl--line-height));
+  }
+
+  .project-item-container > p {
+    font-size: var(--text-lg);
+    line-height: var(--tw-leading, var(--text-lg--line-height));
   }
 }
 
